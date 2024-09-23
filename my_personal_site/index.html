@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">AB<span>KM</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi, I am <br><span>AbdulKhalil</span><br>from Afghanistan</h1>
+            </div>
+        </div>
+    </header>
+<!-- -----------------------------about --------------->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="My_pic/867KouSIWTnGAJkadwtvWLtdS0e.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi vitae quae, dolore iste corporis fugiat impedit, pariatur laudantium, ipsum reprehenderit veniam ea vel ratione totam suscipit modi illum. Impedit, voluptates! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel repellat adipisci voluptate saepe numquam, debitis aut ipsa libero, provident sunt a expedita facilis hic sint laboriosam quasi beatae neque tenetur!</p>
+                    <div class="tab-titles ">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents tab-active" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>App development</span><br>Building IOS/Androind apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-conrrent</span><br>Designing Web/App interfaces training at kabul university</li>
+                            <li><span>2018 - 2021</span><br>Teaching English at Muslim Education center</li>
+                            <li><span>2015 - 2018</span><br>Teaching for free at school</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2010</span><br>software Engineering at Kabul University</li>
+                            <li><span>2009</span><br>English at Muslim institute</li>
+                            <li><span>2008</span><br>Finish school from Panjab</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------SERVICES------------------------------->
+
+
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quae dignissimos officia officiis deleniti impedit nemo, blanditiis commodi tempore nisi autem vero quas minus? Quod architecto dicta expedita culpa a.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quae dignissimos officia officiis deleniti impedit nemo, blanditiis commodi tempore nisi autem vero quas minus? Quod architecto dicta expedita culpa a.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quae dignissimos officia officiis deleniti impedit nemo, blanditiis commodi tempore nisi autem vero quas minus? Quod architecto dicta expedita culpa a.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------------------PORTFOLIO---------------------------->
+
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="My_pic/pexels-fotios-photos-1092644.jpg" width="350px" height="300px">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi, natus at dolorum in tempora nulla? Illum non, modi suscipit voluptatem totam, reiciendis optio iste error iusto beatae, voluptatibus blanditiis.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="My_pic/photo-1521939094609-93aba1af40d7.jpg" width="350px" height="300px">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi, natus at dolorum in tempora nulla? Illum non, modi suscipit voluptatem totam, reiciendis optio iste error iusto beatae, voluptatibus blanditiis.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="My_pic/images.jpg" width="350px" height="300x">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi, natus at dolorum in tempora nulla? Illum non, modi suscipit voluptatem totam, reiciendis optio iste error iusto beatae, voluptatibus blanditiis.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </section>
+
+    <!-----------------------------Contact-------------------------->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> abdulkhalilmohammadi472@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +093776969259</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="my_cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right"> 
+                    <form >
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="email" id="email" placeholder="your Email" required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Lorem ipsum dolor sit amet consectetur <i class="fas fa-heart"></i> adipisicing elit. Dignissimos porro </p>
+        </div>
+    </section>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("tab-active")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("tab-active")
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
